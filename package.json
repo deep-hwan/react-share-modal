@@ -1,6 +1,6 @@
 {
   "name": "react-share-modal",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "private": false,
   "files": [
     "dist",
@@ -62,10 +62,10 @@
     "cross-env": "^7.0.3",
     "rimraf": "^5.0.1"
   },
-  "description": "패키지 소개",
+  "description": "react-share-modal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/deep-hwan/react-kakao-share.git"
+    "url": "https://github.com/deep-hwan/react-share-modal"
   },
   "keywords": [
     "typescript",

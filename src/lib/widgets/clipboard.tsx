@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function URLClipboard(): JSX.Element {
+function URLClipboard() {
   const [isCopy, setIsCopy] = useState<boolean>(false);
 
   function copyToClipboard() {

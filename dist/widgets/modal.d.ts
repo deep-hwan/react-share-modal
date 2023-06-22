@@ -6,5 +6,5 @@ interface ShareModalProps {
     children: React.ReactNode;
     lang: string;
 }
-export declare const ShareModal: React.FC<ShareModalProps>;
+export default function ShareModal(props: ShareModalProps): import("react/jsx-runtime").JSX.Element;
 export {};

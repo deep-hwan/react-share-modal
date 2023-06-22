@@ -1,2 +1,2 @@
-import { ShareModal } from "./widgets/modal";
+import ShareModal from "./widgets/modal";
 export { ShareModal };

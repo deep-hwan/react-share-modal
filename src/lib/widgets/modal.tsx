@@ -14,8 +14,9 @@ import {
   TwitterIcon,
   WhatsAppIcon,
 } from "./icons";
-import URLClipboard from "./clipboard";
+
 import styled from "@emotion/styled";
+import URLClipboard from "./clipboard";
 
 interface ShareModalProps {
   view: boolean;
@@ -25,9 +26,7 @@ interface ShareModalProps {
   lang: string;
 }
 
-export const ShareModal: React.FC<ShareModalProps> = (
-  props: ShareModalProps
-) => {
+export default function ShareModal(props: ShareModalProps) {
   const { view, onCancel, theme, children, lang } = props;
   const [currentUrl, setCurrentUrl] = useState<string>("");
   const ref = useRef<HTMLDivElement>(null);
@@ -117,7 +116,7 @@ export const ShareModal: React.FC<ShareModalProps> = (
       </Wrap>
     </>
   );
-};
+}
 
 // styled
 const Layer = styled.div<{ isActive: boolean }>`
