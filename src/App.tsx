@@ -14,7 +14,7 @@ export default function App() {
         view={isOpen}
         onCancel={() => setIsOpen(false)}
         theme=""
-        lang="ko"
+        lang="en"
       >
         {/* asd */}
       </ShareModal>
