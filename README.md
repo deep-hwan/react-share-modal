@@ -19,7 +19,9 @@ You can share the current url on various social media by opening the Share modal
 
 Information about the example code, prop type, and style for the package modal.
 
-  <source src="https://github.com/deep-hwan/react-share-modal/raw/main/public/modal-video.webm" type="video/webm">
+ <div style="width: 300px;">
+  <img src="https://github.com/deep-hwan/react-share-modal/blob/main/public/modal-img.png?raw=true" width="160" alt="Title Image">
+</div>
 
 ### Example
 
