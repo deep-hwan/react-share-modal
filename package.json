@@ -1,6 +1,6 @@
 {
   "name": "react-share-modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "files": [
     "dist",
@@ -70,7 +70,13 @@
   "keywords": [
     "typescript",
     "Reactjs",
-    "Next.js"
+    "Next.js",
+    "react-share",
+    "react-modal",
+    "react-share-modal",
+    "react-social",
+    "social",
+    "sns-share"
   ],
   "author": "deep",
   "license": "ISC"
