@@ -15,7 +15,9 @@ export default function App() {
         onCancel={() => setIsOpen(false)}
         theme=""
         lang="ko"
-      ></ShareModal>
+      >
+        {/* asd */}
+      </ShareModal>
     </div>
   );
 }
