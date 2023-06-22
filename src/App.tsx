@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { ShareModal } from "./lib/index";
 
-function App() {
+export default function App() {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button type="button" onClick={() => setIsOpen(true)}>
+        open
+      </button>
+
+      <ShareModal
+        view={isOpen}
+        onCancel={() => setIsOpen(false)}
+        theme=""
+        lang="ko"
+      ></ShareModal>
     </div>
   );
 }
-
-export default App;
