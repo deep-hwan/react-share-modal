@@ -23,8 +23,8 @@ var react_1 = require("react");
 var react_indiana_drag_scroll_1 = __importDefault(require("react-indiana-drag-scroll"));
 var react_share_1 = require("react-share");
 var icons_1 = require("./icons");
-var clipboard_1 = __importDefault(require("./clipboard"));
 var styled_1 = __importDefault(require("@emotion/styled"));
+var clipboard_1 = __importDefault(require("./clipboard"));
 function ShareModal(props) {
     var view = props.view, onCancel = props.onCancel, theme = props.theme, children = props.children, lang = props.lang;
     var _a = (0, react_1.useState)(""), currentUrl = _a[0], setCurrentUrl = _a[1];

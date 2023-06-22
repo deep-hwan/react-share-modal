@@ -34,6 +34,8 @@ Information about the example code, prop type, and style for the package modal.
 ### Example
 
 ```jsx
+import { ShareModal } from "react-share-modal";
+
 export default function App() {
   const [isOpen, setIsOpen] = useState < boolean > false;
 
