@@ -25,7 +25,7 @@ Information about the example code, prop type, and style for the package modal.
   <img src="https://github.com/deep-hwan/react-share-modal/blob/main/public/modal-img2.png?raw=true" width="500" alt="Title Image">
 </div>
 
-#### children
+#### children & lang = 'ko'
 
  <div style="width: 500px;">
   <img src="https://github.com/deep-hwan/react-share-modal/blob/main/public/modal-img.png?raw=true" width="500" alt="Title Image">
