@@ -10,12 +10,7 @@ export default function App() {
         open
       </button>
 
-      <ShareModal
-        view={isOpen}
-        onCancel={() => setIsOpen(false)}
-        theme=""
-        lang="en"
-      >
+      <ShareModal view={isOpen} onCancel={() => setIsOpen(false)}>
         {/* asd */}
       </ShareModal>
     </div>

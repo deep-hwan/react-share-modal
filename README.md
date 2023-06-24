@@ -49,8 +49,9 @@ export default function App() {
         view={isOpen}
         onCancel={() => setIsOpen(false)}
         theme="light"
-        lang="en"
+        lang="ko"
       >
+        // children
         <button type="type">
           <KakaoIcon />
           <span>Kakao</span>

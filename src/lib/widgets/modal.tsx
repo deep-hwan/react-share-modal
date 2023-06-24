@@ -26,8 +26,8 @@ interface ShareModalProps {
   lang: string;
 }
 
-export default function ShareModal(props: ShareModalProps) {
-  const { view, onCancel, theme, children, lang } = props;
+export default function ShareModal(props: Partial<ShareModalProps>) {
+  const { view, onCancel, theme, children, lang } = props as ShareModalProps;
   const [currentUrl, setCurrentUrl] = useState<string>("");
   const ref = useRef<HTMLDivElement>(null);
 
